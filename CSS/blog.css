@@ -1,0 +1,46 @@
+.blog__text {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.blog__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.blog__item {
+  position: relative;
+  padding-bottom: 75px;
+}
+
+.blog__link {
+  max-width: 350px;
+  max-height: 370px;
+  cursor: pointer;
+}
+
+.blog__item-text {
+  position: absolute;
+  color: #fff;
+  top: 230px;
+  bottom: 35px;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+}
+
+.blog__btn {
+  max-width: 255px;
+  margin: 0 auto;
+  background-color: #333333;
+  display: block;
+  padding: 15px 35px;
+}
+.blog-btn__text {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}

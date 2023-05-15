@@ -1,0 +1,42 @@
+.header {
+    background-color: #151515;
+  }
+  
+  .header-main {
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+  }
+  
+  .header__inner {
+    margin-top: 27px;
+    margin-bottom: 32px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-left,
+  .menu-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .menu-item {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .menu__search,
+  .menu__account {
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+  }

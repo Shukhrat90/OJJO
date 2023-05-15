@@ -1,0 +1,36 @@
+.salons {
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+}
+
+.salons__inner {
+  padding: 100px 0 100px;
+}
+
+.salons__inner-text {
+  padding-bottom: 15px;
+}
+
+.salons__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  padding-bottom: 45px;
+}
+.salons__text {
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+.salons__btn {
+    max-width: 224px;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 15px 35px;
+}
+.btn__text {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+}
